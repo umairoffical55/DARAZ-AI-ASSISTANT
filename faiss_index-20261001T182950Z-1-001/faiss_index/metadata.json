@@ -1,0 +1,82 @@
+[
+  {
+    "id": "024d5a1f-3d21-4172-902e-59178676a9f8",
+    "department": "unknown",
+    "source_file": "daraz_customer_support_and_buyer_policy_knowledge_base.pdf",
+    "source_path": "daraz_customer_support_and_buyer_policy_knowledge_base.pdf",
+    "chunk_index": 0,
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Daraz Pakistan — Customer Support & Buyer\nPolicy Knowledge Base\nPurpose: RAG testing knowledge base for an e-commerce assistant.\nImportant: This is a developer-created testing dataset. It is not an official Daraz document. Policy details can change; production\nsystems should retrieve the latest official policy pages.\nReference basis: Daraz Pakistan official Terms, Buyer Policy, Help Center and Contact Us pages.\n1. Customer Support\n• Daraz provides a Help Center and customer-support routes for order tracking, returns, cancellations and other\nquestions.\n• Customers can use the online return form to start an eligible return.\n• Customers can use the online cancellation process where cancellation is available.\n• Daraz's official contact/support page directs customers to its Help Center and relevant self-service tools.\n2. Buyer Account & Platform Conduct\n• Buyers are expected to follow Daraz platform terms and buyer-policy rules.\n• Fraudulent activity, fake transactions and misleading activity are prohibited.\n• Transactions originating on Daraz should be completed within the Daraz platform.\n• Customers should not move Daraz transactions to offline payments or unrelated platforms.\n• Official communication channels should be used for Daraz-related buyer/seller communications.\n3. Reviews & Feedback\n• Customers are expected to provide honest feedback about products and services.\n• Fake, misleading, irrelevant, discriminatory, threatening or unlawful reviews/content are prohibited under the buyer\npolicy.\n4. Payments & Safety\n• Daraz terms state that platform transactions should use the platform's payment mechanisms.\n• Customers should be cautious of requests for offline payments or transactions outside Daraz.\n• Daraz states that it is not liable for transactions made outside the platform.\n5. Escalation & Troubleshooting\n• For an order issue, first identify the order and check its current status.\n• For return issues, check eligibility, return window and return-condition requirements.\n• For refund issues, identify the payment method and check the applicable refund timeline.\n• For unresolved problems, use the official Daraz Help Center or Contact Us route."
+  },
+  {
+    "id": "59f2e9b3-bc78-4d0b-963b-0c8a3083938f",
+    "department": "unknown",
+    "source_file": "daraz_customer_support_and_buyer_policy_knowledge_base.pdf",
+    "source_path": "daraz_customer_support_and_buyer_policy_knowledge_base.pdf",
+    "chunk_index": 1,
+    "page_start": 2,
+    "page_end": 2,
+    "text": "entify the payment method and check the applicable refund timeline.\n• For unresolved problems, use the official Daraz Help Center or Contact Us route.\n6. FAQ Retrieval Examples\n• Q: How do I contact Daraz about an order? A: Use the official Help Center or Contact Us support routes.\n• Q: Can I pay a seller outside Daraz? A: Daraz's buyer policy says transactions should remain within the Daraz\nplatform.\n• Q: Can I post any review I want? A: Reviews should be honest and must comply with the buyer-policy rules.\n• Q: What should I do when I have a refund problem? A: Check the refund method/timeline first, then contact official\nsupport if needed.\nSuggested RAG metadata: domain=daraz_pk; country=Pakistan; document_type=knowledge_base;\nuse_case=ecommerce_support; source_type=official_policy_summary."
+  },
+  {
+    "id": "04c0c05b-dbc6-4606-a761-40d6fb6fee69",
+    "department": "unknown",
+    "source_file": "daraz_delivery_and_order_tracking_knowledge_base.pdf",
+    "source_path": "daraz_delivery_and_order_tracking_knowledge_base.pdf",
+    "chunk_index": 0,
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Daraz Pakistan — Delivery & Order Tracking\nKnowledge Base\nPurpose: RAG testing knowledge base for an e-commerce assistant.\nImportant: This is a developer-created testing dataset. It is not an official Daraz document. Policy details can change; production\nsystems should retrieve the latest official policy pages.\nReference basis: Daraz Pakistan official Terms, Help Center and customer-support pages.\n1. Delivery Overview\n• Delivery status can be checked through Daraz order tracking tools and the customer's order area.\n• Customers should provide a complete and accurate shipping address.\n• A customer should normally accept delivery even when an item appears defective or incorrect and then follow the\napplicable Daraz return process.\n2. Order Status Concepts\n• Pending: an order has been received and is awaiting processing in the relevant seller workflow.\n• Ready to Ship: the product is physically available, packed according to applicable requirements and ready for\ntransfer for delivery.\n• Shipped: the product has been dispatched and is on course for delivery.\n• Rejected Product: a product that has been shipped but could not be successfully delivered.\n3. Tracking a Customer Order\n• Customers can use the order tracking feature to check status updates.\n• Daraz may provide order updates through channels such as email or SMS.\n• The tracking number can be used where the applicable tracking service provides it.\n4. Delivery Problems\n• If a delivery is delayed, the customer should first check the current order status and tracking information.\n• If the received item is damaged, defective, incorrect or incomplete, the customer should use the return process\nrather than rejecting delivery solely for that reason.\n• For unresolved issues, customers can use Daraz customer support and the Help Center.\n5. Cancellation & Delivery\n• Cancellation availability depends on the order stage and applicable policy.\n• Seller-side processing requirements can apply after an order has reached shipped status.\n• A seller should not dispatch an order that has already been cancelled before shipment.\n6. FAQ Retrieval Examples"
+  },
+  {
+    "id": "912b7767-bd32-4eb1-b757-c457fee0d79b",
+    "department": "unknown",
+    "source_file": "daraz_delivery_and_order_tracking_knowledge_base.pdf",
+    "source_path": "daraz_delivery_and_order_tracking_knowledge_base.pdf",
+    "chunk_index": 1,
+    "page_start": 2,
+    "page_end": 2,
+    "text": "n order has reached shipped status.\n• A seller should not dispatch an order that has already been cancelled before shipment.\n6. FAQ Retrieval Examples\n• Q: Where can I check my order? A: Use the Daraz order/tracking tools from your account.\n• Q: What should I do if the delivered product is wrong? A: Accept the delivery and initiate the applicable return\nprocess.\n• Q: What does Ready to Ship mean? A: The product is prepared and ready to be transferred for delivery.\n• Q: What should I do if my order has not arrived? A: Check tracking first, then contact Daraz support if the issue\nremains unresolved.\nSuggested RAG metadata: domain=daraz_pk; country=Pakistan; document_type=knowledge_base;\nuse_case=ecommerce_support; source_type=official_policy_summary."
+  },
+  {
+    "id": "5e992fb8-7356-4f9e-8a35-254437e6d5c1",
+    "department": "unknown",
+    "source_file": "daraz_returns_and_refunds_knowledge_base.pdf",
+    "source_path": "daraz_returns_and_refunds_knowledge_base.pdf",
+    "chunk_index": 0,
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Daraz Pakistan — Returns & Refunds Knowledge\nBase\nPurpose: RAG testing knowledge base for an e-commerce assistant.\nImportant: This is a developer-created testing dataset. It is not an official Daraz document. Policy details can change; production\nsystems should retrieve the latest official policy pages.\nReference basis: Daraz Pakistan official Returns Policy, Refund Policy and Returns & Refunds FAQ pages.\n1. Return Window\n• For eligible products, a return request generally must be raised within 14 days from the date of delivery.\n• Products marked as non-returnable on the product page are not eligible for return.\n• After the 14-day return period, a customer should check whether a seller or brand warranty applies.\n2. Common Valid Return Reasons\n• Damaged product: the product is physically damaged or broken when delivered.\n• Defective product: the product does not function as expected.\n• Incorrect product: wrong product, size, colour, fake item, or expired item was delivered.\n• Incomplete product: required items, accessories, or components are missing.\n• Product does not match its description or picture.\n• For selected categories, change-of-mind returns may be available.\n3. Return Conditions\n• The item should normally be unused, unworn, unwashed and without flaws. Fashion items may be tried on for fit\nwhile still being considered unworn.\n• Original tags, manuals, warranty cards, freebies, invoice and accessories should be included where applicable.\n• The original manufacturer packaging should be returned in an undamaged condition.\n• The order number and return tracking number should be indicated on the return package.\n4. How to Start a Return\n• Open the Daraz app or website and go to My Orders.\n• Select the relevant order and choose the return option.\n• Complete the online return form and select an available pickup or drop-off option.\n• Pack the item securely and attach the return label.\n• Drop the parcel at the designated location or wait for pickup.\n5. Refund Basics\n• A refund is processed after the eligible return goes through the applicable quality-check process."
+  },
+  {
+    "id": "58845502-f70c-49f9-aac1-d23b528ab2f5",
+    "department": "unknown",
+    "source_file": "daraz_returns_and_refunds_knowledge_base.pdf",
+    "source_path": "daraz_returns_and_refunds_knowledge_base.pdf",
+    "chunk_index": 1,
+    "page_start": 2,
+    "page_end": 2,
+    "text": "ted location or wait for pickup.\n5. Refund Basics\n• A refund is processed after the eligible return goes through the applicable quality-check process.\n• The refund method and timing depend on the original payment method and the selected refund option.\n• Shipping charges may be included in the refunded amount for eligible returns.\n6. FAQ Retrieval Examples\n• Q: How many days do I have to request a return? A: Generally 14 days from delivery for eligible products.\n• Q: Can I return a product because I changed my mind? A: Only for categories where change-of-mind returns are\npermitted.\n• Q: What happens if the returned item does not meet the return conditions? A: Daraz may reject the refund request\nand send the item back according to its policy.\n• Q: Do I have to return the whole order? A: No. Eligible individual products can be returned without returning the\nentire order.\nSuggested RAG metadata: domain=daraz_pk; country=Pakistan; document_type=knowledge_base;\nuse_case=ecommerce_support; source_type=official_policy_summary."
+  },
+  {
+    "id": "f382fae1-6959-4ccf-a091-969163a60016",
+    "department": "unknown",
+    "source_file": "daraz_seller_and_payments_knowledge_base.pdf",
+    "source_path": "daraz_seller_and_payments_knowledge_base.pdf",
+    "chunk_index": 0,
+    "page_start": 1,
+    "page_end": 1,
+    "text": "Daraz Pakistan — Seller & Seller Payments\nKnowledge Base\nPurpose: RAG testing knowledge base for an e-commerce assistant.\nImportant: This is a developer-created testing dataset. It is not an official Daraz document. Policy details can change; production\nsystems should retrieve the latest official policy pages.\nReference basis: Daraz Pakistan official Marketplace Agreement and Seller Center/Help Center information.\n1. Seller Basics\n• A Daraz seller uses Seller Center to manage products, orders, account information and seller operations.\n• Sellers are expected to provide accurate product information, including descriptions, images, pricing, availability\nand relevant product details.\n• Sellers must comply with Daraz platform policies and applicable requirements.\n2. Product Listing Requirements\n• Product listings should contain accurate descriptions and specifications.\n• Images should accurately represent the product and comply with applicable image guidelines.\n• Sellers should provide correct stock, shipping and product information.\n• Counterfeit, dangerous, prohibited or restricted products may not be listed where prohibited by applicable platform\nrules or law.\n3. Seller Returns & Quality Checks\n• Seller-side return cases can include defective/damaged, incorrect and incomplete products.\n• Change-of-mind returns may apply only to certain categories.\n• Returned products can be subject to a Daraz quality-control check to assess the customer's return claim.\n• If a return claim is found invalid under the applicable process, the product may be sent back to the customer.\n4. Seller Payments\n• Seller payments are connected to orders that reach the required delivered status and are subject to the applicable\nsettlement policy.\n• Daraz provides payment information/statements through Seller Center.\n• Payments are made in Pakistani Rupees to the bank account specified by the seller in Seller Center.\n• Incorrect or incomplete bank-account information can affect successful payment processing.\n• If a previously paid order is later returned, Daraz may deduct the equivalent amount in a subsequent settlement\ncycle subject to the applicable policy.\n5. Seller Support"
+  },
+  {
+    "id": "9e95bb0d-85b8-4a05-acde-796d64a7c35b",
+    "department": "unknown",
+    "source_file": "daraz_seller_and_payments_knowledge_base.pdf",
+    "source_path": "daraz_seller_and_payments_knowledge_base.pdf",
+    "chunk_index": 1,
+    "page_start": 2,
+    "page_end": 2,
+    "text": "d order is later returned, Daraz may deduct the equivalent amount in a subsequent settlement\ncycle subject to the applicable policy.\n5. Seller Support\n• Seller Center/Help Center provides areas for claims, concerns, order management, payments, returns and policy\nguidance.\n• Seller support channels may include help-center resources and live support during published operating hours.\n6. FAQ Retrieval Examples\n• Q: Where are seller payment statements available? A: Through Seller Center.\n• Q: What can cause a seller payment problem? A: Incorrect or incomplete bank-account information is one\ndocumented cause.\n• Q: Are all change-of-mind returns accepted? A: No. They apply only to certain categories under the return policy.\n• Q: What happens to a returned seller product? A: The applicable process can include a Daraz quality-control\ncheck.\nSuggested RAG metadata: domain=daraz_pk; country=Pakistan; document_type=knowledge_base;\nuse_case=ecommerce_support; source_type=official_policy_summary."
+  }
+]
