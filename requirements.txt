@@ -4,3 +4,4 @@ gdown
 PyMuPDF
 sentence-transformers
 faiss-cpu
+groq
